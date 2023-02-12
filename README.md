@@ -2,6 +2,7 @@
 <img src="/assets/logo.jpg" />
 </p>
 
+<img src="https://user-images.githubusercontent.com/74764366/218328226-f06c59a2-3c9a-4800-96a0-2c1b2f9476bf.png" height="20" width="auto" />  <a href="https://yinonozery.github.io/would-you-rather/">Play Here</a>
 
 ## Introduction
 Would You Rather is a fun and interactive multiple-choice game built with HTML, CSS, and Vanilla JavaScript.  
