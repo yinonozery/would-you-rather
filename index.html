@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Would You Rather</title>
+        <script src="./js/index.js" defer></script>
+        <link rel="stylesheet" href="./assets/style.css" />
+        <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    </head>
+    <body>
+        <header>
+            <img src="./assets/logo.jpg" alt="logo" />
+        </header>
+        <div id="overlay"><div id="loading"></div></div>
+        <main>
+            <h2 id="total_votes"></h2>
+            <div id="panel">
+                <div class="blue" onclick="voteQuestion(1)">
+                    <div id="option1"></div>
+                    <div id="votes1"></div>
+                </div>
+                <div class="red" onclick="voteQuestion(2)">
+                    <div id="option2"></div>
+                    <div id="votes2"></div>
+                </div>
+                <div class="or">?</div>
+            </div>
+            <progress id="progress_bar" value="0" max="0"></progress>
+            <div id="progress"></div>
+            <div id="next">
+                <button onclick="getNextQuestion()">Next Question</button>
+            </div>
+        </main>
+        <footer>&copy; 2023 - Yinon Ozery</footer>
+    </body>
+</html>
